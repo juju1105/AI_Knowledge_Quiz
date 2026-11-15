@@ -153,7 +153,7 @@ class QuizGame:
                 break
 
             else:
-                print("잘못된 메뉴입니다. 1~5 사이의 숫자를 입력하세요.")
+                print("잘못된 메뉴입니다. 1~7 사이의 숫자를 입력하세요.")
 
     # 전체 퀴즈 개수 확인
     def show_quiz_count(self):
@@ -401,6 +401,7 @@ class QuizGame:
 
         # 문제 삭제 및 저장
         self.quizzes.pop(quiz_number - 1)
+        self.best_score = min(self.best_score, len(self.quizzes))
         self.save_data()
 
         print("\n문제가 성공적으로 삭제되었습니다!")
