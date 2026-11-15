@@ -353,6 +353,22 @@ EOF
 
 각 퀴즈는 질문, 선택지 목록, 정답 번호를 하나의 데이터로 관리합니다. 여러 퀴즈는 `quizzes` 배열에 저장됩니다.
 
+{
+    "best_score": 3,
+    "quizzes": [
+        {
+            "question": "AI는 무엇의 약자일까요?",
+            "choices": [
+                "Artificial Intelligence",
+                "Automatic Information",
+                "Advanced Internet",
+                "Applied Interface"
+            ],
+            "answer": 1
+        }
+    ]
+}
+
 ### ② JSON을 선택한 이유
 
 - **가독성:** 사람이 직접 파일을 열어 데이터 구조를 확인할 수 있습니다.
