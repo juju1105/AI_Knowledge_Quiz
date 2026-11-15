@@ -393,3 +393,12 @@ JSON은 소규모 프로그램에서 사용하기 편리하지만 다음과 같�
 - `json.load()` : JSON 파일 읽기
 - `json.dump()` : JSON 데이터 저장
 - `os.path` : 파일 경로 관리
+
+## 🔄 Git Clone 및 Pull 실습
+
+### ① Git Clone
+
+GitHub 원격 저장소의 프로젝트를 로컬 컴퓨터에 복제하였다.
+
+```bash
+git clone https://github.com/juju1105/AI_Knowledge_Quiz.git
